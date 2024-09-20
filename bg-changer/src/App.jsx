@@ -25,28 +25,28 @@ function App() {
         <div className='flex flex-wrap justify-center gap-3 shadow-lg bg-slate-600 px-3 py-2 rounded-3xl'>
           <button
             onClick={() => handleButtonClick(0)}
-            className='outline-none px-4 py-1 rounded-full shadow-lg'
+            className='outline-none px-4 py-1 rounded-full shadow-lg transition ease-in-out delay-150'
             style={getButtonStyle(0)}
           >
             Home
           </button>
           <button
             onClick={() => handleButtonClick(1)}
-            className='outline-none px-4 py-1 rounded-full shadow-lg'
+            className='outline-none px-4 py-1 rounded-full shadow-lg transition ease-in-out delay-150'
             style={getButtonStyle(1)}
           >
             About
           </button>
           <button
             onClick={() => handleButtonClick(2)}
-            className='outline-none px-4 py-1 rounded-full shadow-lg'
+            className='outline-none px-4 py-1 rounded-full shadow-lg transition ease-in-out delay-150'
             style={getButtonStyle(2)}
           >
             Testimonials
           </button>
           <button
             onClick={() => handleButtonClick(3)}
-            className='outline-none px-4 py-1 rounded-full shadow-lg'
+            className='outline-none px-4 py-1 rounded-full shadow-lg transition ease-in-out delay-150'
             style={getButtonStyle(3)}
           >
             Contact
